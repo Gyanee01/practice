@@ -1,0 +1,27 @@
+{
+  "name": "gyanbackend",
+  "version": "1.0.0",
+  "description": "a basic app learn to deploy",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gyanee01/practice.git"
+  },
+  "keywords": [
+    "node",
+    "gyan"
+  ],
+  "author": "Gyanendra sahu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gyanee01/practice/issues"
+  },
+  "homepage": "https://github.com/Gyanee01/practice#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
