@@ -50,13 +50,17 @@ app.get('/twitter', (req, res) => {
   res.send('Gyandotcom')
 })
 
+app.get('/facebook', (req, res) => {
+  res.send('gyandotcom')
+})
+
 app.get('/instagram', (req, res) => {
   res.send('<h1>please login at gyan dot com</h1>')
-} )
+})
 
 app.get('/github', (req, res) => {
     res.json(githubData)
-} )
+})
 
 app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${port}`)
