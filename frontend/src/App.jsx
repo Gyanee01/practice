@@ -5,6 +5,10 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
+  // This is a simple React component that uses Vite for development
+  const handleClick = () => {
+    setCount(count + 1)
+  }
 
   return (
     <>
