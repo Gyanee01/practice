@@ -10,6 +10,13 @@ function App() {
     setCount(count + 1)
   }
 
+  <samp>{count}
+  <h1>console here
+    <span>Click the button to increment the count</span>
+    
+  </h1>
+  </samp>
+
   return (
     <>
       <div>
