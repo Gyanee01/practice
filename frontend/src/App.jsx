@@ -2,6 +2,11 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import { getComputedStyle } from 'react-dom'
+
+SVGFEDisplacementMapElement from 'react-dom'
+// This is a simple React component that uses Vite for development
+// It imports React, Vite logos, and a CSS file for styling.
 
 function App() {
   const [count, setCount] = useState(0)
