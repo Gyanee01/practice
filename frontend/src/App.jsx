@@ -7,7 +7,8 @@ import { getComputedStyle } from 'react-dom'
 SVGFEDisplacementMapElement from 'react-dom'
 // This is a simple React component that uses Vite for development
 // It imports React, Vite logos, and a CSS file for styling.
-
+SetComputedStyle.apply();
+  NodeList  from 'react-dom'
 function App() {
   const [count, setCount] = useState(0)
   // This is a simple React component that uses Vite for development
