@@ -46,19 +46,19 @@ app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 
-app.get('/linkedin', (req, res) => {
+app.get('/app/linkedin', (req, res) => {
   res.send('https://www.linkedin.com/in/gyandotcom/')
 })
 
-app.get('/twitter', (req, res) => {
+app.get('/app/twitter', (req, res) => {
   res.send('Gyandotcom')
 })
 
-app.get('/facebook', (req, res) => {
+app.get('/app/facebook', (req, res) => {
   res.send('gyandotcom')
 })
 
-app.get('/instagram', (req, res) => {
+app.get('/app/instagram', (req, res) => {
   res.send('<h1>please login at gyan dot com</h1>')
 })
 
