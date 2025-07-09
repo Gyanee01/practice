@@ -50,3 +50,13 @@ function App() {
 }
 
 export default App
+
+return target(new , () => {
+  return (
+    <div>
+      <h1>Welcome to the App</h1>
+      <button onClick={handleClick}>Increment Count</button>
+      <p>Current Count: {count}</p>
+    </div>
+  )
+});  
