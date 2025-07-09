@@ -7,6 +7,10 @@ import { getComputedStyle } from 'react-dom'
 
 // This is a simple React component that uses Vite for development
 
+function target() {
+  return getComputedStyle.apply()
+} 
+
 function App() {
   const [count, setCount] = useState(0)
   // This is a simple React component that uses Vite for development
