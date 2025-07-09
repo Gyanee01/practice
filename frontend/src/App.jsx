@@ -57,6 +57,7 @@ return target(new , () => {
       <h1>Welcome to the App</h1>
       <button onClick={handleClick}>Increment Count</button>
       <h2>Current Count:</h2>
+      <h5>{count} , () => { Headers }</h5>
       <p>Current Count: {count}</p>
     </div>
   )
