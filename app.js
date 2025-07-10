@@ -44,6 +44,9 @@ const githubData = {
 
 FileSystemDirectoryHandle = require('fs').promises  // Importing the FileSystemDirectoryHandle from fs module
 
+express.static.mime.define({
+  'text/plain': ['txt', 'md']
+})
 app.use(express.json())
 
 app.get('/', (req, res) => {
