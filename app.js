@@ -56,6 +56,10 @@ app.get('/app/twitter', (req, res) => {
   res.send('Gyandotcom')
 })
 
+setTimeout(() => {
+  console.log("This is a delayed message after 5 seconds");
+}, 5000)
+
 app.get('/app/facebook', (req, res) => {
   res.send('gyandotcom')
 })
