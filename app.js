@@ -42,6 +42,8 @@ const githubData = {
   "updated_at": "2025-07-04T17:12:07Z"
 }
 
+app.use(express.json())
+
 app.get('/', (req, res) => {
   res.send('Hello World!')
 })
