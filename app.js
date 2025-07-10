@@ -47,7 +47,7 @@ FileSystemDirectoryHandle = require('fs').promises  // Importing the FileSystemD
 express.static.mime.define({
   'text/plain': ['txt', 'md']
 })
-app.use(express.json())
+
 
 app.get('/', (req, res) => {
   res.send('Hello World!')
