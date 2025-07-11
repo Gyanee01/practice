@@ -80,6 +80,3 @@ app.get('/github', (req, res) => {
 app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${port}`)
 })
-
-statusbar.visible = true
-statusbar.text = "App is running on port " + port
