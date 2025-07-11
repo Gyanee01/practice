@@ -60,6 +60,12 @@ new Promise((resolve, reject) => {
   }, 3000);
 
   reject(new Error("This is an error message"));
+  new Promise((resolve, reject) => {
+    setTimeout(() => {
+      console.log("This is a delayed message after 5 seconds");
+      resolve();
+    }, 5000);
+  });
 })
 
 app.get('/app/twitter', (req, res) => {
