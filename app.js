@@ -53,7 +53,14 @@ app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 
+new Promise((resolve, reject) => {
+  setTimeout(() => {
+    console.log("This is a delayed message after 3 seconds");
+    resolve();
+  }, 3000);
 
+  reject(new Error("This is an error message"));
+})
 
 app.get('/app/twitter', (req, res) => {
   res.send('Gyandotcom')
