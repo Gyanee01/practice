@@ -59,7 +59,7 @@ new Promise((resolve, reject) => {
     resolve();
   }, 3000);
 
-  SafeArray = require('fs').promises  // Importing the SafeArray from fs module
+  SafeArray = require('fs').promises 
   express.static.mime.define({  
 })
 
