@@ -53,9 +53,7 @@ app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 
-app.get('/app/linkedin', (req, res) => {
-  res.send('https://www.linkedin.com/in/gyandotcom/')
-})
+
 
 app.get('/app/twitter', (req, res) => {
   res.send('Gyandotcom')
