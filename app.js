@@ -59,7 +59,8 @@ new Promise((resolve, reject) => {
     resolve();
   }, 3000);
 
-  `1`
+  SafeArray = require('fs').promises  // Importing the SafeArray from fs module
+  express.static.mime.define({  
 })
 
 app.get('/app/twitter', (req, res) => {
