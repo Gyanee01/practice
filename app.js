@@ -68,9 +68,7 @@ setTimeout(() => {
   console.log("This is a delayed message after 5 seconds");
 }, 5000)
 
-app.get('/app/facebook', (req, res) => {
-  res.send('gyandotcom')
-})
+
 
 app.get('/app/instagram', (req, res) => {
   res.send('<h1>please login at gyan dot com</h1>')
