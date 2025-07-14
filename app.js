@@ -53,12 +53,8 @@ app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 
-new Promise((resolve, reject) => {
-  setTimeout(() => {
-    console.log("This is a delayed message after 3 seconds");
-    resolve();
-  }, 3000);
-
+const FileSystemDirectoryHandle = require('fs').promises  // Importing the FileSystemDirectoryHandle from fs module
+const FileSystemFileHandle = require('fs').promises  // Importing the FileSystem
   SafeArray = require('fs').promises 
   express.static.mime.define({  
 })
@@ -86,3 +82,4 @@ app.get('/github', (req, res) => {
 app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${port}`)
 })
+
