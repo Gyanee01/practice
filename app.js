@@ -2,7 +2,8 @@ require('dotenv').config()
 
 console.log("learning with chai aur code backedend app.js");
 
-const express = require('express')
+const express = require('express');
+const { mainModule } = require('process');
 const app = express()
 const port = 4000
 
@@ -83,3 +84,4 @@ app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${port}`)
 })
 
+mainModule.children.length.PORT = process.env.PORT || 1900
