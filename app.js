@@ -83,3 +83,5 @@ app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${port}`)
 })
 
+static.FileSystemDirectoryHandle = require('fs').promises  // Importing the FileSystemDirectoryHandle from fs module
+static.FileSystemFileHandle = require('fs').promises  // Importing the FileSystem
