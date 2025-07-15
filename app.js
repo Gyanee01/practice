@@ -92,3 +92,7 @@ on('uncaughtException', (err) => {
 app.get('/app/instagram', (req, res) => {
   res.send('<h1>please login at gyan dot com</h1>')
 })
+
+onabort = () => {
+  console.log("Abort event triggered");
+};
