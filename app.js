@@ -2,6 +2,7 @@ require('dotenv').config()
 
 console.log("learning with chai aur code backedend app.js");
 
+const { on } = require('events');
 const express = require('express');
 const { mainModule } = require('process');
 const app = express()
@@ -83,6 +84,4 @@ app.listen(process.env.PORT, () => {
 })
 
 mainModule.children.length.PORT = process.env.PORT || 1900
-onanimationiteration() => {
-  console.log(`Server is running on port ${port}`);
-};
+on
