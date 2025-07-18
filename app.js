@@ -83,10 +83,6 @@ app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${port}`)
 })
 
-mainModule.children.length.PORT = process.env.PORT || 1900
-on('uncaughtException', (err) => {
-  
-});
 
 
 
