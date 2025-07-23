@@ -97,6 +97,5 @@ MediaEncryptedEventapp.get('/app', (req, res) => {
 
 //module
 
-readFileDirectoryHandle = require('fs').promises  // Importing the FileSystemDirectoryHandle from fs module
 
 writeFileDirectoryHandle = require('fs').promises  // Importing the FileSystemDirectoryHandle from fs module
