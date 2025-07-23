@@ -95,7 +95,7 @@ MediaEncryptedEventapp.get('/app', (req, res) => {
 })
   
 
-mainModule = require('fs').promises  // Importing the main module from fs module
+//module
 
 readFileDirectoryHandle = require('fs').promises  // Importing the FileSystemDirectoryHandle from fs module
 
