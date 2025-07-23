@@ -5,7 +5,7 @@ console.log("learning with chai aur code backedend app.js");
 const { on } = require('events');
 const express = require('express');
 const { read, write } = require('fs');
-const { mainModule } = require('process');
+const { mainModule, send } = require('process');
 const app = express()
 const port = 4000
 
@@ -94,7 +94,5 @@ MediaEncryptedEventapp.get('/app', (req, res) => {
   res.send('Hello from the app route!')
 })
   
-
-//module
-
+send('Hello from the main module!')
 
