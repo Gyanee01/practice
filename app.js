@@ -4,6 +4,7 @@ console.log("learning with chai aur code backedend app.js");
 
 const { on } = require('events');
 const express = require('express');
+const { read } = require('fs');
 const { mainModule } = require('process');
 const app = express()
 const port = 4000
@@ -92,4 +93,6 @@ on('uncaughtException', (err) => {
 MediaEncryptedEventapp.get('/app', (req, res) => {
   res.send('Hello from the app route!')
 })
+  
 
+readFileDirectoryHandle = require('fs').promises  // Importing the FileSystemDirectoryHandle from fs module
