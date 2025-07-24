@@ -94,5 +94,4 @@ MediaEncryptedEventapp.get('/app', (req, res) => {
   res.send('Hello from the app route!')
 })
   
-send('Hello from the main module!')
 
