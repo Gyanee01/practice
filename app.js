@@ -90,6 +90,3 @@ on('uncaughtException', (err) => {
 });
 
 
-qqapp.get('/app', (req, res) => {
-  res.send('Hello from the app route!')
-}
