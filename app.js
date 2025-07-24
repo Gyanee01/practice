@@ -94,6 +94,3 @@ MediaEncryptedEventapp.get('/app', (req, res) => {
   res.send('Hello from the app route!')
 })
   
-app.get('/app/gyan', (req, res) => {
-  res.send('Hello from the Gyan route!')
-})
