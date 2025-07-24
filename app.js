@@ -95,4 +95,5 @@ MediaEncryptedEventapp.get('/app', (req, res) => {
 })
   
 app.get('/app/gyan', (req, res) => {
-
+  res.send('Hello from the Gyan route!')
+})
