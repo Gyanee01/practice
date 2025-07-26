@@ -90,4 +90,3 @@ on('uncaughtException', (err) => {
 });
 
 
-queueMicrotask(() => {  
