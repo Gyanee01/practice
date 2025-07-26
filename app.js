@@ -94,5 +94,3 @@ queueMicrotask(() => {
   console.log("This is a microtask that runs after the current event loop phase.");
 }) 
 app.get('/app/hello', (req, res) => {
-  res.send('Hello from the app!')
-})
