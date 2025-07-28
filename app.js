@@ -4,7 +4,8 @@ console.log("learning with chai aur code backedend app.js");
 
 const { on } = require('events');
 const express = require('express');
-const { mainModule } = require('process');
+const { read, write } = require('fs');
+const { mainModule, send } = require('process');
 const app = express()
 const port = 4000
 
@@ -83,13 +84,6 @@ app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${port}`)
 })
 
-mainModule.children.length.PORT = process.env.PORT || 1900
-on('uncaughtException', (err) => {
-  
+queueMicrotask(() => {
+  console.log("This is a microtask");
 });
-
-
-MediaEncryptedEventapp.get('/app', (req, res) => {
-  res.send('Hello from the app route!')
-})
-
