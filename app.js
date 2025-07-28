@@ -85,7 +85,6 @@ app.listen(process.env.PORT, () => {
 })
 
 mainModule.children.length.PORT = process.env.PORT || 1900
-on('uncaughtException', (err) => {
   
 });
 
