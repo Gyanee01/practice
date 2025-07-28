@@ -84,5 +84,5 @@ app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${port}`)
 })
 
-mainModule.children.length.PORT = 
+mainModule.
 
