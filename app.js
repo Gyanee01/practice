@@ -84,5 +84,3 @@ app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${port}`)
 })
 
-queueMicrotask(() => {
-  console.local commit 5
