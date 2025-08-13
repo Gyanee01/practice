@@ -81,4 +81,3 @@ app.get('/github', (req, res) => {
 })
 
 app.listen(process.env.PORT, () => {
-  conso
